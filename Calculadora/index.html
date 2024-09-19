@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <br><br>
+    <input class="input1"  type="number" placeholder="Introduzca el primer numero" id="numero1">
+    <select id="operaciones">
+        
+        <option value="1">+</option>
+        <option value="2">-</option>
+        <option value="3">x</option>
+        <option value="4">%</option>
+
+    </select>
+    
+    <input type="number" placeholder="Introduzca el segundo numero" id="numero2"><br>
+    <button onclick="calcularNumeros()">Resultado</button>
+
+    <div id="resul"></div>
+    <script src="java.js"></script>
+</body>
+</html>
