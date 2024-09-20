@@ -29,6 +29,3 @@ function calcularNumeros() {
 
     document.getElementById("resul").innerHTML = resultado;
 }
-
-    document.getElementById("resul").innerHTML = resultado;
-}
